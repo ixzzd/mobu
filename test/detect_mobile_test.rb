@@ -2,7 +2,7 @@ require 'test_helper'
 
 class MobuFake
   class << self
-    def before_filter(*args) end
+    def before_action(*args) end
     def helper_method(*methods) end
   end
 
